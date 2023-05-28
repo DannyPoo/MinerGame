@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miner the Mines</title>
+</head>
+<body>
+    <div id="buttonsContainer">
+
+        <div id="coalContainer">
+            <p id="coalMined">0 Coal Mined</p>
+            <button id="mineCoalBtn" data-mineral="coal">Mine Coal</button>
+            <button id="buycoalPerClickBtn" data-mineral="coal">Upgrade Pickaxe (Currently Level 1) Cost: 10 Coal</button>
+        </div>
+
+        <div id="goldContainer" style="display: none;">
+            <p id="goldMined">0 Gold Mined</p>
+            <button id="mineGoldBtn" data-mineral="gold">Mine Gold</button>
+            <button id="buygoldPerClickBtn" data-mineral="gold">Upgrade Pickaxe (Currently Level 1) Cost: 50 Gold</button>
+        </div>
+        
+        <div id="ironContainer" style="display: none;">
+        <!-- Add other minerals and their buttons here -->
+            <p id="ironMined">0 Iron Mined</p>
+            <button id="mineIronBtn" data-mineral="iron">Mine Iron</button>
+            <button id="buyironPerClickBtn" data-mineral="iron">Upgrade Pickaxe (Currently Level 1) Cost: 50 Iron</button>
+        </div>
+
+      <!-- Add other minerals and their buttons here -->
+    </div>
+<script src="main.js" charset="UTF-8" type="text/javascript"></script>
+<script src="miningGame.js" charset="UTF-8" type="text/javascript"></script>
+</body>
+</html>
